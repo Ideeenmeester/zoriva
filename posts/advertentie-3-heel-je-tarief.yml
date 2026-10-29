@@ -1,0 +1,17 @@
+# Advertentie 3 · zonder datum · zelfstandigen
+advertentie: true
+reeks: advertentie
+doelgroep: zelfstandigen
+onderwerp: Als zelfstandige houd je je hele tarief
+linkedin: |
+  Jij doet het werk, dus jij houdt ook wat je verdient. Op Zoriva maak je als zelfstandige rechtstreeks afspraken met je opdrachtgever, factureer je zelf precies het tarief dat jullie samen hebben afgesproken en heb je je opdrachten, uren en facturen op één plek, terwijl je opdrachtgever ziet dat alles goed geregeld is.
+
+  Bekijk onze website.
+sjabloon: groot-getal
+kicker: Voor zelfstandigen
+getal: 100%
+kop: van je tarief, *zonder afdracht*
+labels:
+- zelfstandigen
+- tarief
+- autonomie

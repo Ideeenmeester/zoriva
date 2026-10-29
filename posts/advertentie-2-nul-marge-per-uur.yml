@@ -1,0 +1,18 @@
+# Advertentie 2 · zonder datum · opdrachtgevers
+advertentie: true
+reeks: advertentie
+doelgroep: opdrachtgevers
+onderwerp: Geen cent marge per gewerkt uur
+linkedin: |
+  Elke euro die je aan flexibele inzet uitgeeft, hoort bij de mensen die het werk doen en niet bij een partij ertussen. Bij Zoriva spreek je het tarief rechtstreeks af met de professional, betaal je precies wat hij factureert en reken je voor de software een vaste prijs die niet meegroeit met de uren.
+
+  Bekijk onze website.
+sjabloon: groot-getal
+kicker: Rechtstreeks samenwerken
+getal: € 0,00
+kop: marge *per gewerkt uur*
+figuur: verbinding
+labels:
+- marge
+- transparant
+- zonder strijkstok

@@ -1,0 +1,20 @@
+# Advertentie 6 · zonder datum · sector
+advertentie: true
+reeks: advertentie
+doelgroep: sector
+onderwerp: Bewezen in het onderwijs, klaar voor jouw sector
+linkedin: |
+  Scholen en zelfstandige onderwijsprofessionals werken al sinds 2018 rechtstreeks met elkaar samen, zonder dat een commerciële partij aan elk uur verdient. Zoriva brengt die bewezen aanpak nu naar de zorg, de kinderopvang, overheden en elke andere sector die haar flexibele schil liever in eigen beheer heeft en het samen wil organiseren.
+
+  Bekijk onze website.
+sjabloon: statement
+thema: donker
+kicker: Bewezen in het onderwijs
+kop: 'Bewezen in het onderwijs,
+
+  *klaar voor jouw sector*'
+kopgrootte: 60
+labels:
+- onderwijs
+- sectoren
+- samen organiseren
