@@ -1,0 +1,23 @@
+# Post 23 · wo 2 dec 2026 14:00 · reeks risico · opdrachtgevers
+nr: 23
+datum: '2026-12-02'
+tijd: '14:00'
+reeks: risico
+doelgroep: opdrachtgevers
+onderwerp: Documenten die ongemerkt verlopen
+linkedin: |
+  Een verlopen verzekering, VOG of certificaat ontdek je liever niet pas nadat iemand al een paar weken voor je aan het werk is. Toch gebeurt dat sneller dan je denkt als de documenten van flexibele krachten verspreid staan over mailboxen, portalen van leveranciers en losse mappen, en niemand precies weet wanneer iets afloopt. In Zoriva staan de KvK-inschrijving, verzekeringen, diploma's en certificaten per persoon vast, met een vervaldatum waar die er is, en wat dreigt te verlopen valt op voordat iemand wordt ingezet, zodat je zeker weet dat alles klopt voordat de opdracht begint.
+
+  Bekijk onze website.
+sjabloon: checklist
+kicker: Dossier
+kop: 'Papieren op orde
+
+  *vóór de start*'
+items:
+- verzekeringen
+- VOG
+- diploma's en certificaten
+labels:
+- dossier
+- zekerheid

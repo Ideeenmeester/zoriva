@@ -1,0 +1,24 @@
+# Post 15 · vr 20 nov 2026 09:00 · reeks risico · opdrachtgevers
+nr: 15
+datum: '2026-11-20'
+tijd: 09:00
+reeks: risico
+doelgroep: opdrachtgevers
+onderwerp: Klopt elke factuur eigenlijk wel
+linkedin: |
+  Elke maand komen er facturen binnen van bureaus, brokers en losse zelfstandigen, elk in een eigen vorm en op basis van uren die ergens anders zijn bijgehouden. Wie controleert dan eigenlijk of de gefactureerde uren overeenkomen met wat er is afgesproken en gewerkt? In de praktijk is dat vaak niemand, simpelweg omdat de gegevens nergens naast elkaar staan. In Zoriva worden de uren geregistreerd en door jou goedgekeurd voordat er gefactureerd wordt, zodat de afspraak, de uren en de factuur zichtbaar bij elkaar horen en je achteraf niets hoeft uit te zoeken.
+
+  Bekijk onze website.
+sjabloon: checklist
+kicker: Facturatie
+kop: 'Klopt elke
+
+  *factuur* eigenlijk?'
+items:
+- de afspraak
+- de goedgekeurde uren
+- de factuur
+labels:
+- facturatie
+- urenregistratie
+- overzicht

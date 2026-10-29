@@ -1,4 +1,4 @@
-# Huisstijl Zoriva Zorg. Pas hier kleuren, url of kernwoorden aan; alle beelden en controles volgen vanzelf.
+# Huisstijl Zoriva (sectoroverstijgend). Pas hier kleuren, url of kernwoorden aan; alle beelden en controles volgen vanzelf.
 naam: Zoriva
 url: zoriva.nl
 logo: brand/logo.png          # origineel logobestand, wordt NOOIT aangepast
@@ -19,34 +19,37 @@ prijzen:
   toegestaan: ["€ 0,00"]
   verouderd: []               # zet hier oude bedragen, de controle keurt ze dan af
 kernwoorden:                  # labels op de beelden komen uitsluitend uit deze lijst
-  - Wtta
-  - Wet DBA
-  - zelfstandigenwet
-  - tussenpartij
-  - marge
-  - tarief
+  - regie
+  - overzicht
+  - eigen beheer
+  - afhankelijkheid
+  - contracten
+  - urenregistratie
+  - facturatie
+  - interne schil
+  - externe schil
+  - flexibele schil
   - rechtstreeks
   - transparant
   - zonder strijkstok
-  - eigen regie
-  - regie
-  - autonomie
-  - zekerheid
-  - dossier
-  - onderwijs
-  - zorg
-  - samen organiseren
-  - flexibele schil
-  - btw-vrijstelling
-  - overnamefee
-  - inlenen
-  - eigen netwerk
-  - afhankelijkheid
-  - overzicht
   - zelfstandigen
+  - autonomie
+  - tarief
+  - marge
+  - eigen netwerk
+  - dossier
+  - samen organiseren
+  - sectoren
+  - onderwijs
+  - zekerheid
+  - tussenpartij
+  - overnamefee
+  - inhuur
+  - opdrachtgevers
 reeksen:
-  risico: { dagen: [ma, wo, vr], start: "08:00" }       # reeks 1: risico en urgentie
-  gerust: { dagen: [di, do], start: "10:00" }           # reeks 2: het geruststellende alternatief
+  risico: { dagen: [ma, wo, vr], start: "14:00" }       # reeks 1: afhankelijkheid en gebrek aan overzicht
+  gerust: { dagen: [di, do], start: "19:00" }           # reeks 2: eigen regie, het alternatief
+# De starttijden zijn zo gekozen dat Zoriva nooit op hetzelfde moment post als zzpinhetmkb (minstens 6 uur ertussen).
 venster: { van: "08:00", tot: "20:00" }
 metricool:
   blogId: 5128723             # brand Zoriva, alleen LinkedIn

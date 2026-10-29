@@ -1,0 +1,24 @@
+# Post 19 · do 26 nov 2026 13:00 · reeks gerust · opdrachtgevers
+nr: 19
+datum: '2026-11-26'
+tijd: '13:00'
+reeks: gerust
+doelgroep: opdrachtgevers
+onderwerp: Begin bij wie je al kent
+linkedin: |
+  Overstappen naar een flexibele schil in eigen beheer klinkt als een groot project, maar de eerste stap is verrassend klein, omdat je begint bij de mensen die je al kent. Je nodigt je eigen invallers en zelfstandigen uit in je omgeving, zij maken een profiel aan met hun documenten, en vanaf dat moment kun je opdrachten uitzetten met een heldere omschrijving, periode en voorwaarden. Daarna lopen contracten, uren en facturen via één proces, zodat je stap voor stap minder afhankelijk wordt van commerciële partijen zonder dat het werk er last van heeft.
+
+  Bekijk onze website.
+sjabloon: tijdlijn
+kicker: Zo werkt het
+kop: Begin bij *wie je al kent*
+stappen:
+- datum: '1'
+  tekst: nodig je eigen mensen uit
+- datum: '2'
+  tekst: zet een opdracht uit
+- datum: '3'
+  tekst: uren en facturen op één plek
+labels:
+- eigen netwerk
+- eigen beheer

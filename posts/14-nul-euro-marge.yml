@@ -1,0 +1,20 @@
+# Post 14 · do 19 nov 2026 11:00 · reeks gerust · opdrachtgevers
+nr: 14
+datum: '2026-11-19'
+tijd: '11:00'
+reeks: gerust
+doelgroep: opdrachtgevers
+onderwerp: Wat de professional factureert, betaal jij
+linkedin: |
+  Het bedrag op de factuur van de professional is bij Zoriva precies het bedrag dat jij betaalt, omdat er niemand tussen zit die per gewerkt uur een opslag rekent. Jij en de professional spreken samen het tarief, de periode en de werkwijze af, de professional factureert dat tarief rechtstreeks aan jou en voor de software betaal je een vaste prijs die niet meegroeit met elk extra uur. Zo blijft het geld dat bedoeld is voor het werk ook echt bij de mensen die dat werk doen, en weet je als organisatie vooraf waar je aan toe bent zonder afhankelijk te zijn van een partij die belang heeft bij meer uren.
+
+  Bekijk onze website.
+sjabloon: groot-getal
+kicker: Rechtstreeks met de professional
+getal: € 0,00
+kop: marge op het uurtarief
+figuur: verbinding
+labels:
+- transparant
+- zonder strijkstok
+- regie
