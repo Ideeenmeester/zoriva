@@ -1,0 +1,20 @@
+# Advertentie 4 · zonder datum · beide
+advertentie: true
+reeks: advertentie
+doelgroep: beide
+onderwerp: Rechtstreeks en zonder strijkstok
+linkedin: |
+  Opdrachtgevers en zelfstandigen vinden elkaar op Zoriva en regelen het daar meteen goed, met een heldere opdracht, uren die worden vastgelegd en een factuur die rechtstreeks gaat. Er zit niemand tussen die verdient aan elk uur, zodat jullie allebei de regie houden en de samenwerking echt van jullie samen blijft.
+
+  Bekijk onze website.
+sjabloon: twee-kanten
+kicker: Zoriva
+kop: 'Rechtstreeks,
+
+  *zonder strijkstok*'
+links: opdrachtgever
+rechts: zelfstandige
+labels:
+- rechtstreeks
+- zonder strijkstok
+- regie
