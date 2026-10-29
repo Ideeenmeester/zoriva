@@ -1,0 +1,30 @@
+# Post 10 · vr 13 nov 2026 19:00 · reeks risico · opdrachtgevers
+nr: 10
+datum: '2026-11-13'
+tijd: '19:00'
+reeks: risico
+doelgroep: opdrachtgevers
+onderwerp: Interne en externe schil in twee werelden
+linkedin: |
+  Je eigen oproepkrachten en invallers beheer je in een spreadsheet, terwijl je externe krachten via een bureau binnenkomen en in het systeem van die leverancier staan. Zo ontstaan er twee werelden die niet met elkaar praten, met dubbel werk voor planning en administratie en zonder één plek waar je ziet wat je flexibele capaciteit je in totaal kost. Met Zoriva kun je de interne en de externe schil in hetzelfde systeem onderbrengen, met contracten, urenregistratie en facturatie op één manier geregeld, zodat je per afdeling ziet wie er beschikbaar is en waar je echt iemand van buiten nodig hebt.
+
+  Bekijk onze website.
+sjabloon: vergelijking
+kicker: Flexibele schil
+kop: 'Twee schillen,
+
+  *twee werelden*?'
+links:
+  titel: zoals het vaak gaat
+  regels:
+  - interne schil in een spreadsheet
+  - externe schil bij bureaus
+rechts:
+  titel: in eigen beheer
+  regels:
+  - beide schillen in één systeem
+  - één overzicht van alle kosten
+labels:
+- interne schil
+- externe schil
+- overzicht
