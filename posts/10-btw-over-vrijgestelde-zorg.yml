@@ -1,0 +1,28 @@
+# Post 10 · vr 13 nov 2026 13:00 · reeks risico · opdrachtgevers
+nr: 10
+datum: '2026-11-13'
+tijd: '13:00'
+reeks: risico
+doelgroep: opdrachtgevers
+onderwerp: Btw over zorg die vrijgesteld had kunnen zijn
+linkedin: |
+  Betaal jij als zorgorganisatie btw over zorg die eigenlijk vrijgesteld had kunnen zijn? Een zelfstandige zorgprofessional met een BIG-registratie die zorg verleent binnen zijn eigen deskundigheid, valt in de regel onder de medische btw-vrijstelling, maar komt dezelfde professional via uitzenden of detachering bij jou terecht, dan is dat werk volgens de Belastingdienst in principe belast. Die btw kun je als zorgorganisatie meestal niet verrekenen, zodat je naast de marge van de tussenpartij ook nog eens btw betaalt over een tarief dat rechtstreeks vrijgesteld had kunnen zijn. Wie de professional rechtstreeks een opdracht geeft, houdt de vrijstelling in stand waar die geldt, en dat scheelt in de zorg vaak meer dan je op het eerste gezicht zou denken.
+
+  Bekijk onze website.
+sjabloon: vergelijking
+kicker: Zorg
+kop: Btw over *vrijgestelde zorg*?
+links:
+  titel: via uitzenden of detachering
+  regels:
+  - marge per uur
+  - in principe btw-belast
+rechts:
+  titel: rechtstreeks
+  regels:
+  - geen marge per uur
+  - vrijstelling blijft waar die geldt
+labels:
+- btw-vrijstelling
+- zorg
+- rechtstreeks

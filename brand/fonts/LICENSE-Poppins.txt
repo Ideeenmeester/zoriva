@@ -1,0 +1,3 @@
+Poppins is gelicenseerd onder de SIL Open Font License, versie 1.1.
+Copyright 2020 The Poppins Project Authors (https://github.com/itfoundry/Poppins)
+Volledige tekst: https://openfontlicense.org/open-font-license-official-text/

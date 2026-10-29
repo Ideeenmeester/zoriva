@@ -1,0 +1,75 @@
+name: Controle, beelden en overzicht
+on:
+  push:
+    branches: [main]
+    paths: ['posts/**', 'templates/**', 'brand/**', 'scripts/**', '.github/workflows/beelden.yml']
+  pull_request:
+    paths: ['posts/**', 'templates/**', 'brand/**', 'scripts/**']
+  workflow_dispatch:   # handmatig starten via het tabblad Actions
+permissions:
+  contents: write
+  pull-requests: write
+  pages: write
+  id-token: write
+concurrency:
+  group: beelden-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  beelden:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      # Poortwachter: bij één regelovertreding stopt alles hier en komt er niets door
+      - name: Controle op de vaste regels
+        run: npm run controle
+      - run: npx playwright install --with-deps chromium
+      - run: npm run render
+      - run: npm run overzicht
+      - run: npm run metricool
+      - name: Beelden terugzetten in de repository
+        run: |
+          git config user.name "zoriva-beelden-bot"
+          git config user.email "zoriva-beelden-bot@users.noreply.github.com"
+          git add output
+          git diff --cached --quiet || (git commit -m "Beelden en planning bijgewerkt" && git push)
+          echo "SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Beelden als download klaarzetten
+        uses: actions/upload-artifact@v4
+        with: { name: zoriva-socials, path: output/ }
+      # Pull request: de beelden van alle gewijzigde posts verschijnen als reactie in de PR
+      - name: Beelden tonen in de pull request
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs'), yaml = require(process.cwd() + '/node_modules/js-yaml');
+            const files = (await github.paginate(github.rest.pulls.listFiles, { ...context.repo, pull_number: context.issue.number }))
+              .map(f => f.filename).filter(f => /^posts\/.+\.ya?ml$/.test(f) && fs.existsSync(f));
+            const raw = id => `https://raw.githubusercontent.com/${context.repo.owner}/${context.repo.repo}/${process.env.SHA}/output/linkedin/${encodeURIComponent(id)}.png`;
+            let body = '### Beelden in deze pull request\nControle geslaagd. Keur de PR goed om de posts klaar te zetten voor Metricool.\n\n';
+            for (const f of files.sort()) {
+              const id = f.replace(/^posts\//, '').replace(/\.ya?ml$/, ''), p = yaml.load(fs.readFileSync(f, 'utf8'));
+              body += `#### ${p.nr ? '#' + p.nr + ' · ' : ''}${p.datum || 'zonder datum'} ${p.tijd || ''} · ${p.onderwerp}\n<img src="${raw(id)}" width="600">\n\n<details><summary>LinkedIn-tekst</summary>\n\n${p.linkedin}\n</details>\n\n`;
+            }
+            if (!files.length) body += 'Geen posts gewijzigd.';
+            const mark = '<!-- zoriva-beelden -->';
+            const prev = (await github.rest.issues.listComments({ ...context.repo, issue_number: context.issue.number })).data.find(c => c.body.includes(mark));
+            if (prev) await github.rest.issues.updateComment({ ...context.repo, comment_id: prev.id, body: mark + body });
+            else await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body: mark + body });
+      - name: Overzichtspagina klaarzetten
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v3
+        with: { path: site/ }
+  pages:
+    if: github.event_name != 'pull_request'
+    needs: beelden
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: '${{ steps.deploy.outputs.page_url }}' }
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

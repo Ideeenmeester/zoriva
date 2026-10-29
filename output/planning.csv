@@ -1,0 +1,26 @@
+nr,datum,tijd,reeks,doelgroep,onderwerp,beeld,woorden
+1,2026-11-02,08:00,risico,opdrachtgevers,"Twee Wtta-data voor iedereen die inleent",output/linkedin/01-wtta-twee-data.png,117
+2,2026-11-03,10:00,gerust,opdrachtgevers,"Wat de professional factureert, betaal jij",output/linkedin/02-nul-euro-marge.png,112
+3,2026-11-04,09:00,risico,zelfstandigen,"Alleen nog via een bureau mogen werken",output/linkedin/03-alleen-via-bureau.png,123
+4,2026-11-05,11:00,gerust,sector,"In het onderwijs is het al gelukt",output/linkedin/04-onderwijs-sinds-2018.png,112
+5,2026-11-06,10:00,risico,opdrachtgevers,"De marge die elk jaar meegroeit",output/linkedin/05-wat-je-niet-meer-betaalt.png,115
+6,2026-11-09,11:00,risico,opdrachtgevers,"Handhaving op schijnzelfstandigheid is terug",output/linkedin/06-handhaving-sinds-2025.png,113
+7,2026-11-10,12:00,gerust,zelfstandigen,"Jij onderhandelt, jij factureert, jij houdt alles",output/linkedin/07-jij-houdt-alles.png,100
+8,2026-11-11,12:00,risico,zelfstandigen,"Een tarief dat een ander bepaalt",output/linkedin/08-wie-bepaalt-jouw-tarief.png,121
+9,2026-11-12,13:00,gerust,sector,"Samen organiseren is slimmer dan alleen",output/linkedin/09-samen-organiseren.png,103
+10,2026-11-13,13:00,risico,opdrachtgevers,"Btw over zorg die vrijgesteld had kunnen zijn",output/linkedin/10-btw-over-vrijgestelde-zorg.png,120
+11,2026-11-16,14:00,risico,opdrachtgevers,"Overnamekosten voor je eigen relatie",output/linkedin/11-betalen-voor-je-eigen-relatie.png,103
+12,2026-11-17,14:00,gerust,opdrachtgevers,"Een dossier dat zich vanzelf opbouwt",output/linkedin/12-dossier-op-het-moment-zelf.png,103
+13,2026-11-18,15:00,risico,zelfstandigen,"De Zelfstandigenwet komt eraan",output/linkedin/13-zelfstandigenwet-komt.png,111
+14,2026-11-19,15:00,gerust,zelfstandigen,"Autonomie houden en toch zekerheid bieden",output/linkedin/14-autonomie-en-zekerheid.png,103
+15,2026-11-20,16:00,risico,opdrachtgevers,"Hoe afhankelijk ben je van je bureau",output/linkedin/15-van-wie-is-jouw-netwerk.png,105
+16,2026-11-23,17:00,risico,zelfstandigen,"Zekerheid bieden zonder tarief in te leveren",output/linkedin/16-honderd-procent-tarief.png,108
+17,2026-11-24,16:00,gerust,opdrachtgevers,"Begin bij wie je al kent",output/linkedin/17-begin-bij-wie-je-kent.png,104
+18,2026-11-25,18:00,risico,opdrachtgevers,"Een bureau voelt veilig, maar wie toetst",output/linkedin/18-wie-toetst-op-jouw-werkvloer.png,99
+19,2026-11-26,17:00,gerust,opdrachtgevers,"Iedereen die voor je werkt in één overzicht",output/linkedin/19-iedereen-in-een-overzicht.png,93
+20,2026-11-27,19:00,risico,opdrachtgevers,"Documenten die ongemerkt verlopen",output/linkedin/20-papieren-op-orde.png,95
+21,2026-11-30,20:00,risico,zelfstandigen,"Rechtstreeks verder mag niet van het bureau",output/linkedin/21-jouw-relatie-jouw-opdrachtgever.png,102
+22,2026-12-01,18:00,gerust,sector,"Het onderwijs laat zien dat het werkt",output/linkedin/22-onderwijs-in-cijfers.png,103
+23,2026-12-02,08:00,risico,sector,"Ieder voor zich het wiel uitvinden",output/linkedin/23-ieder-voor-zich.png,107
+24,2026-12-03,19:00,gerust,beide,"Elkaar vinden en het direct goed regelen",output/linkedin/24-vinden-en-direct-geregeld.png,100
+25,2026-12-04,09:00,risico,opdrachtgevers,"Met hoeveel bureaus werk jij eigenlijk",output/linkedin/25-hoeveel-bureaus.png,105

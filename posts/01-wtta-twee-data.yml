@@ -1,0 +1,23 @@
+# Post 1 · ma 2 nov 2026 08:00 · reeks risico · opdrachtgevers
+nr: 1
+datum: '2026-11-02'
+tijd: 08:00
+reeks: risico
+doelgroep: opdrachtgevers
+onderwerp: Twee Wtta-data voor iedereen die inleent
+linkedin: |
+  Weet jij zeker dat het bureau waar je mensen van inleent na de jaarwisseling nog mag uitlenen? Op 1 januari 2027 gaat de Wtta in en mogen alleen uitleners met een toelating nog arbeidskrachten ter beschikking stellen, en vanaf 1 januari 2028 controleert de Arbeidsinspectie ook bij de organisaties die inlenen, want ook zij kunnen een boete krijgen als hun uitlener die toelating mist. Je betaalt een bureau dus elk uur een marge en houdt het risico toch zelf, en daarom kijken steeds meer organisaties naar een route waarin je rechtstreeks een opdracht geeft aan een zelfstandige die zonder gezag werkt, alles goed vastlegt en zo niet afhangt van de toelating van een ander.
+
+  Bekijk onze website.
+sjabloon: tijdlijn
+kicker: Wtta
+kop: Twee data voor *iedereen die inleent*
+stappen:
+- datum: 1 januari 2027
+  tekst: de Wtta gaat in
+- datum: 1 januari 2028
+  tekst: de Arbeidsinspectie controleert ook inleners
+labels:
+- Wtta
+- inlenen
+- tussenpartij

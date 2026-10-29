@@ -1,0 +1,20 @@
+# Post 22 · di 1 dec 2026 18:00 · reeks gerust · sector
+nr: 22
+datum: '2026-12-01'
+tijd: '18:00'
+reeks: gerust
+doelgroep: sector
+onderwerp: Het onderwijs laat zien dat het werkt
+linkedin: |
+  Ruim 1.500 overeenkomsten en meer dan 225.000 uren per jaar lopen inmiddels rechtstreeks tussen scholen en zelfstandige onderwijsprofessionals, zonder dat er een bureau aan meeverdient. Dat model draait sinds 2018 bij Flexonderwijs en laat zien dat een hele sector haar flexibele schil zelf kan organiseren, met eerlijke tarieven, een dossier per opdracht en relaties die van de school en de professional blijven. Zoriva brengt diezelfde aanpak nu naar de zorg en andere sectoren, zodat je kunt instappen in een werkwijze die zich al jaren in de praktijk heeft bewezen en je niet hoeft te beginnen met een idee op papier.
+
+  Bekijk onze website.
+sjabloon: groot-getal
+kicker: Bewezen in het onderwijs
+getal: 225.000+
+getalgrootte: 130
+kop: uren per jaar *rechtstreeks*
+labels:
+- onderwijs
+- samen organiseren
+- rechtstreeks

@@ -1,0 +1,30 @@
+name: Nieuwe post
+description: Vraag een nieuwe LinkedIn-post met beeld aan. Claude schrijft de tekst en het beeld en opent een pull request.
+title: "Nieuwe post: "
+labels: [contentverzoek]
+body:
+  - type: input
+    id: onderwerp
+    attributes: { label: Onderwerp, description: Waar gaat de post over?, placeholder: "Overnamekosten bij indiensttreding" }
+    validations: { required: true }
+  - type: textarea
+    id: doel
+    attributes: { label: Doel, description: Wat moet de lezer denken, voelen of doen na het lezen? }
+    validations: { required: true }
+  - type: dropdown
+    id: doelgroep
+    attributes: { label: Doelgroep, options: [opdrachtgevers, zelfstandigen, sector, beide] }
+    validations: { required: true }
+  - type: dropdown
+    id: reeks
+    attributes: { label: Reeks, options: ["risico (ma-wo-vr)", "geruststellend (di-do)", "advertentie (zonder datum)"] }
+    validations: { required: true }
+  - type: input
+    id: datum
+    attributes: { label: Gewenste datum, description: "JJJJ-MM-DD, of leeg voor de eerstvolgende vrije plek in de reeks", placeholder: "2026-12-08" }
+  - type: input
+    id: kernwoorden
+    attributes: { label: Kernwoorden voor de labels, description: Hooguit drie, uit de lijst in brand/brand.yml }
+  - type: textarea
+    id: bron
+    attributes: { label: Bron of inspiratie, description: Links naar wetgeving bij de overheid, eigen tekst of een voorbeeld }

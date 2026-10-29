@@ -1,0 +1,18 @@
+{
+  "name": "zoriva-socials",
+  "version": "1.0.0",
+  "description": "LinkedIn-content van Zoriva: tekst, beeld, planning en Metricool-export",
+  "scripts": {
+    "render": "node scripts/render.js",
+    "render:een": "node scripts/render.js --alleen",
+    "controle": "node scripts/controle.js",
+    "overzicht": "node scripts/overzicht.js",
+    "metricool": "node scripts/metricool.js",
+    "alles": "npm run controle && npm run render && npm run overzicht && npm run metricool"
+  },
+  "dependencies": {
+    "js-yaml": "^5.5.0",
+    "playwright": "^1.63.0"
+  },
+  "private": true
+}

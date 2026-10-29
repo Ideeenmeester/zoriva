@@ -1,0 +1,24 @@
+# Post 17 · di 24 nov 2026 16:00 · reeks gerust · opdrachtgevers
+nr: 17
+datum: '2026-11-24'
+tijd: '16:00'
+reeks: gerust
+doelgroep: opdrachtgevers
+onderwerp: Begin bij wie je al kent
+linkedin: |
+  Overstappen naar rechtstreeks samenwerken klinkt als een groot project, maar de eerste stap is verrassend klein, omdat je begint bij de zelfstandigen die je al kent. Je nodigt hen uit in je eigen omgeving, zij maken een profiel aan met hun documenten en vervaldata, en vanaf dat moment kun je opdrachten uitzetten met een heldere scope, periode en voorwaarden. De professional reageert, jullie spreken samen het tarief en de werkwijze af, en uren, goedkeuringen en facturen lopen daarna via één proces, zodat je stap voor stap de tussenpartij overbodig maakt zonder dat de zorg of het werk er last van heeft.
+
+  Bekijk onze website.
+sjabloon: tijdlijn
+kicker: Zo werkt het
+kop: Begin bij *wie je al kent*
+stappen:
+- datum: '1'
+  tekst: nodig je eigen zelfstandigen uit
+- datum: '2'
+  tekst: zet een opdracht uit
+- datum: '3'
+  tekst: spreek samen tarief en werkwijze af
+labels:
+- eigen netwerk
+- rechtstreeks

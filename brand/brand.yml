@@ -1,0 +1,59 @@
+# Huisstijl Zoriva Zorg. Pas hier kleuren, url of kernwoorden aan; alle beelden en controles volgen vanzelf.
+naam: Zoriva
+url: zoriva.nl
+logo: brand/logo.png          # origineel logobestand, wordt NOOIT aangepast
+logo_sha256: 748759ea10364e093c5c57b52730ecb015fcbcc83c67cf5c4ce584307058868a   # controle faalt als het logo wijzigt
+kleuren:
+  diep: "#35123C"             # donkerste paars, start van het verloop
+  paars: "#63256C"            # knoppen en accenten op de site
+  logo: "#562154"             # kleur van het logo
+  magenta: "#9B4A9E"          # einde van het verloop
+  accent: "#E9A6F1"           # uitgelichte woorden op donker
+  lavendel: "#F1ECF4"         # lichte vlakken en kaarten
+  pil: "#EEE6F2"              # lichte labels
+  rand: "#E6DAEA"             # dunne kaartranden
+  wit: "#FFFFFF"              # achtergrond van het logobestand, dus ook van de logobalk
+aanspreekvorm: je             # je/jij/jouw; "u" en "uw" worden door de controle afgekeurd
+prijzen:
+  # Nog niet vastgesteld. Zolang dit leeg is, mag geen enkele post een bedrag noemen behalve € 0,00.
+  toegestaan: ["€ 0,00"]
+  verouderd: []               # zet hier oude bedragen, de controle keurt ze dan af
+kernwoorden:                  # labels op de beelden komen uitsluitend uit deze lijst
+  - Wtta
+  - Wet DBA
+  - zelfstandigenwet
+  - tussenpartij
+  - marge
+  - tarief
+  - rechtstreeks
+  - transparant
+  - zonder strijkstok
+  - eigen regie
+  - regie
+  - autonomie
+  - zekerheid
+  - dossier
+  - onderwijs
+  - zorg
+  - samen organiseren
+  - flexibele schil
+  - btw-vrijstelling
+  - overnamefee
+  - inlenen
+  - eigen netwerk
+  - afhankelijkheid
+  - overzicht
+  - zelfstandigen
+reeksen:
+  risico: { dagen: [ma, wo, vr], start: "08:00" }       # reeks 1: risico en urgentie
+  gerust: { dagen: [di, do], start: "10:00" }           # reeks 2: het geruststellende alternatief
+venster: { van: "08:00", tot: "20:00" }
+metricool:
+  blogId: 5128723             # brand Zoriva, alleen LinkedIn
+  netwerk: linkedin
+  tijdzone: Europe/Amsterdam
+github:
+  repo: Ideeenmeester/zoriva-socials
+  branch: main
+formaten:
+  linkedin: { breedte: 1200, hoogte: 627 }
