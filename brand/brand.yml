@@ -53,7 +53,7 @@ metricool:
   netwerk: linkedin
   tijdzone: Europe/Amsterdam
 github:
-  repo: Ideeenmeester/zoriva-socials
+  repo: Ideeenmeester/zoriva
   branch: main
 formaten:
   linkedin: { breedte: 1200, hoogte: 627 }

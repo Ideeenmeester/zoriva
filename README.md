@@ -69,12 +69,12 @@ labels: [autonomie, rechtstreeks, tarief]
 
 - **Controle als poortwachter.** De workflow *Controle, beelden en overzicht* draait bij elke wijziging in `posts/`, `templates/`, `brand/` of `scripts/`. Hij stopt bij de eerste regelovertreding, zodat er niets fouts doorkomt.
 - **Beelden.** Na de controle komen de beelden in `output/linkedin/`. Ze staan ook als zip onder Actions.
-- **Overzichtspagina.** GitHub Pages toont alle posts met beeld, datum, tijd, kopieerknop en filters per maand, reeks en doelgroep. Je zet het eenmalig aan via *Settings → Pages → Source: GitHub Actions*. De link is daarna `https://ideeenmeester.github.io/zoriva-socials/`.
+- **Overzichtspagina.** GitHub Pages toont alle posts met beeld, datum, tijd, kopieerknop en filters per maand, reeks en doelgroep. Je zet het eenmalig aan via *Settings → Pages → Source: GitHub Actions*. De link is daarna `https://ideeenmeester.github.io/zoriva/`.
 - **Pull requests.** De beelden van alle gewijzigde posts verschijnen als reactie in de PR.
 - **Metricool-export.** Dit levert `output/metricool.json` op: per post de tekst, de openbare raw-url van het beeld en de datum en tijd in Europe/Amsterdam met de juiste zomer- of wintertijd. Daarnaast komt er `output/metricool.csv` voor de bulkimport.
 - **n8n (optioneel).** Zet het geheim `N8N_WEBHOOK_URL` en start daarna *Planning naar n8n* onder Actions.
 
-Openbare link van een beeld: `https://raw.githubusercontent.com/Ideeenmeester/zoriva-socials/main/output/linkedin/<bestandsnaam>.png`
+Openbare link van een beeld: `https://raw.githubusercontent.com/Ideeenmeester/zoriva/main/output/linkedin/<bestandsnaam>.png`
 
 ## Lokaal draaien (optioneel)
 
